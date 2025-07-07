@@ -54,6 +54,9 @@ This command will:
 
 ---
 
+Docker image: https://hub.docker.com/r/nourwork/pdf-claims-extractor
+---
+
 ## 📁 Output File
 
 ### `dataframes.txt`
