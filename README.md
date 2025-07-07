@@ -6,13 +6,13 @@ This project automates the extraction of **medical claims** and **benefits summa
 
 ## 📦 Features
 
-- ✅ **OCR-based PDF Table Extraction** using [Camelot](https://camelot-py.readthedocs.io/)
-- ✅ Extracts and processes two key datasets:
+- **OCR-based PDF Table Extraction** using [Camelot](https://camelot-py.readthedocs.io/)
+- Extracts and processes two key datasets:
   - `claims` table: Monthly claim records
   - `benefits` table: Benefit-wise summary
-- ✅ Adds metadata from the document:
+- Adds metadata from the document:
   - `Policy Year`, `End_Date`, `Class`, `Overall_Limit`
-- ✅ Stores results as:
+- Stores results as:
   ```python
   {
     "claim_experiences": {
@@ -21,8 +21,8 @@ This project automates the extraction of **medical claims** and **benefits summa
     }
   }
   ```
-- ✅ Redis integration to persist structured output
-- ✅ Fully containerized using Docker + Docker Compose
+-  Redis integration to persist structured output
+-  Fully containerized using Docker + Docker Compose
 
 ---
 
@@ -167,8 +167,8 @@ pdf-claims-extractor/
 This project was developed as part of an OCR-based PDF processing assignment.  
 For technical questions or maintenance, contact:
 
-**Name:** Your Name  
-**Email:** your.email@example.com
+**Name:** Nour AL-Smadi
+**Email:** nooralsmadi173@gmail.com
 
 ---
 
