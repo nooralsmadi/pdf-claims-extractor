@@ -115,26 +115,6 @@ print(data["claim_experiences"]["benefits"].head())
 | Class                        | Extracted from metadata                 |
 | Overall_Limit                | Extracted from metadata                 |
 
----
-
-## 🧪 Testing & Validation
-
-To test locally outside Docker:
-
-```bash
-python3 test.py
-```
-
-Or launch an interactive session:
-
-```python
-python3
->>> import pickle
->>> with open("dataframes.txt", "rb") as f:
-...     data = pickle.load(f)
->>> data["claim_experiences"].keys()
-dict_keys(['claims', 'benefits'])
-```
 
 ---
 
